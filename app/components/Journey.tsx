@@ -1,8 +1,7 @@
 // components/journey.tsx
 "use client";
-import { motion, useInView } from "framer-motion";
+import { motion } from "framer-motion";
 import { MapPin, Shield, Trophy, Hand } from "lucide-react";
-import Glove from "@/public/Gloves.svg";
 
 const milestones = [
   {

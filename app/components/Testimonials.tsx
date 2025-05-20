@@ -72,7 +72,9 @@ export function Testimonials() {
                   ))}
                 </div>
 
-                <p className="text-gray-300">"{testimonial.text}"</p>
+                <p className="text-gray-300">
+                  &ldquo;{testimonial.text}&rdquo;
+                </p>
               </Card>
             </motion.div>
           ))}
